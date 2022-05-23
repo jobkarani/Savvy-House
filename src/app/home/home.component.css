@@ -18,8 +18,8 @@
 }
 
 .row-col img {
-    width: 150%;
-    margin-left: 30%;
+    width: 130%;
+    margin-left: 25%;
 }
 
 .row-col h1 {
@@ -35,6 +35,9 @@
     font-size: larger;
     color: #FA4EAB;
 }
+
+
+/*---------course--------------*/
 
 .course {
     background-color: #323232;
@@ -53,3 +56,37 @@
     text-align: center;
     padding-top: 1%;
 }
+
+.course-row {
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.course-row h2 {
+    font-size: x-large;
+    margin-left: 24%;
+}
+
+.course-row p {
+    font-size: normal;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-col {
+    padding-top: 3%;
+}
+
+.course-col img {
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+@media (max-width:1000px) {}
+
+
+/*------End of course-----*/
