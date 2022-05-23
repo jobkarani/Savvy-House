@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light " id="navbar">
   <div class="container-fluid">
       <div class="navbar-nav nav">
         <div class="nav-link active" aria-current="page" ><a href="#">Home</a> </div>
@@ -8,3 +9,19 @@
       </div>
     </div>
 </nav>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+</div>
+
