@@ -13,6 +13,8 @@
 }
 .nav-link a{
   color: #df1380;
+  font-size: large;
+  font-weight: 900;
   list-style-type: none;
   text-decoration: none;
 }
