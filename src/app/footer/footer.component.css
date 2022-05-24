@@ -1,0 +1,16 @@
+.card{
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/15/16/11/background-3228704__340.jpg");
+}
+
+.card-text{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    color: #FA4EAB;
+}
+
+h3{
+    text-align: right;
+    font-weight: 500;
+    font-size: x-large;
+}
