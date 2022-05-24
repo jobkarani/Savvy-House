@@ -16,6 +16,7 @@
 
 .card-body1{
     background-color: white;
+    margin-top: 5%;
 }
 
 .text-muted{
@@ -45,3 +46,4 @@ h1{
     color: black;
     font-size: large;
 }
+
