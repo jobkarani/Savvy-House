@@ -105,8 +105,8 @@
     /*--------Start of core---*/
     
     .service-header {
-        background-color: #FA4EAB;
-        color: #FFF2F9;
+        background-color: #323232;
+        color: #f1e0e9;
         height: 8vh;
     }
     
@@ -116,6 +116,7 @@
         font-size: xx-large;
         text-align: center;
         padding-top: 1%;
+        text-decoration: dotted;
     }
     
     .core {
@@ -125,9 +126,15 @@
     }
     
     .card {
-        margin: 3%;
-        padding: 20px 12px;
+        margin: 2%;
+        padding: 20px 10px;
         box-sizing: border-box;
+        background-color: #FA4EAB;
+    }
+    
+    .card h1,
+    p {
+        color: #FFF2F9;
     }
     
     .card:hover {
