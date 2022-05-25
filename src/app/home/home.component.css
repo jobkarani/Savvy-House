@@ -1,92 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Cabin+Sketch&family=Carter+One&family=Fredericka+the+Great&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,200;1,500;1,700&display=swap');
-.container-fluid {
-    background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174");
-    background-position: cover;
-    height: 100vh;
-    width: 100%;
-    color: #FFF2F9;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
-.row-col {
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-.row-col img {
-    width: 130%;
-    margin-left: 25%;
-}
-
-.row-col h1 {
-    font-weight: 600;
-    font-size: x-large;
-    margin-left: 30%;
-    text-align: center;
-    color: #FA4EAB;
-}
-
-.row-col p {
-    margin-left: 40%;
-    font-size: larger;
-    color: #FA4EAB;
-}
-
-
-/*---------course--------------*/
-
-.course {
-    background-color: #323232;
-    color: #FFF2F9;
-}
-
-.course-header {
-    background-color: #FA4EAB;
-    height: 10vh;
-}
-
-.course-header h1 {
-    font-family: 'Cabin Sketch', cursive;
-    font-weight: 500;
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 1%;
-}
-
-.course-row {
-    margin-left: 5%;
-    padding-top: 2%;
-}
-
-.course-row h2 {
-    font-size: x-large;
-    margin-left: 24%;
-}
-
-.course-row p {
-    font-size: normal;
-}
-
-.col {
-    display: flex;
-    flex-direction: row;
-}
-
-.course-col {
-    padding-top: 3%;
-}
-
-.course-col img {
-    width: 80%;
-    padding-top: 5%;
-    padding-left: 4%;
-}
-
-@media (max-width:1000px) {}
-
-
-/*------End of course-----*/
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Cabin+Sketch&family=Carter+One&family=Fredericka+the+Great&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,200;1,500;1,700&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container-fluid {
+        background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174");
+        background-position: cover;
+        height: 100vh;
+        width: 100%;
+        color: #FFF2F9;
+        background-size: cover;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .row-col {
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    
+    .row-col p {
+        font-family: fantasy;
+        font-size: 120%;
+        font-weight: 500;
+    }
+    
+    .row-col img {
+        width: 90%;
+        margin-left: 25%;
+    }
+    
+    .row-col h1 {
+        font-weight: 600;
+        font-size: x-large;
+        text-align: left;
+        color: #FA4EAB;
+    }
+    
+    @media(max-width:1000px) {
+        * {
+            width: 100%;
+            height: auto;
+        }
+    }
+    /*---------course--------------*/
+    
+    .course {
+        background-color: #323232;
+        color: #FFF2F9;
+    }
+    
+    .course-header {
+        background-color: #FA4EAB;
+        height: 10vh;
+    }
+    
+    .course-header h1 {
+        font-family: 'Cabin Sketch', cursive;
+        font-weight: 500;
+        font-size: xx-large;
+        text-align: center;
+        padding-top: 1%;
+    }
+    
+    .course-row {
+        margin-left: 5%;
+        padding-top: 2%;
+    }
+    
+    .course-row h2 {
+        font-size: x-large;
+        margin-left: 24%;
+    }
+    
+    .course-row p {
+        font-size: normal;
+    }
+    
+    .col {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .course-col {
+        padding-top: 3%;
+    }
+    
+    .course-col img {
+        width: 80%;
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    
+    @media (max-width:1000px) {
+        .course {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    /*------End of course-----*/
+    /*--------Start of core---*/
+    
+    .service-header {
+        background-color: #FA4EAB;
+        color: #FFF2F9;
+        height: 8vh;
+    }
+    
+    .service-header h1 {
+        font-family: 'Cabin Sketch', cursive;
+        font-weight: 500;
+        font-size: xx-large;
+        text-align: center;
+        padding-top: 1%;
+    }
+    
+    .core {
+        display: flex;
+        flex-direction: row;
+        background-color: #323232;
+    }
+    
+    .card {
+        margin: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+    }
+    
+    .card:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.6);
+    }
+    
+    @media(max-width: 1000px) {
+        .core {
+            flex-direction: column;
+        }
+    }
