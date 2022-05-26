@@ -15,14 +15,14 @@
 }
 
 .text-muted{
-    color: black !important;
+    color: #df1380 !important;
     font-weight: 100;
     font-size: large;
 }
 
 h3{
     margin-top: 5%;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #df1380;
     width: 30%;
     padding-bottom: 2%;
 }
@@ -30,18 +30,37 @@ h3{
 h1{
     font-size: xx-large;
     font-weight: 900;
-    color: black;
+    color: #df1380;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 .one{
-    color: black;
+    color: #df1380;
 }
 .card-text{
     color: black;
     font-size: large;
 }
-card2{
-    background-image: url('https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661__340.jpg');
+.card2{
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/12/08/55/mobile-phone-2224001__340.jpg');
+    background-repeat: no-repeat;
+    padding-left: 40%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+strong{
+    color: #df1380;
+}
+.two{
+    color: #df1380;
+    border-bottom: 4px solid #df1380;
+    width: 50%;
+    padding-bottom: 4%;
+}
+.card2 p{
+    box-shadow: 5px 5px 5px 5px #e2dede;
+    padding: 5%;
+    text-align: right;
 }
 
