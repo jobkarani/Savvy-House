@@ -11,7 +11,7 @@
 
 .card-body1{
     background-color: white;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .text-muted{
@@ -40,5 +40,8 @@ h1{
 .card-text{
     color: black;
     font-size: large;
+}
+card2{
+    background-image: url('https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661__340.jpg');
 }
 
