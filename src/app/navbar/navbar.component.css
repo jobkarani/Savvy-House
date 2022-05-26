@@ -1,13 +1,14 @@
 .fixed-top{
-    padding-left: 40%;
     box-shadow: 3px 3px 3px 3px #d8b5c8;
-    background-color: white;
+    background-color: #df1380;
 }
 .nav{
     display: flex;
     flex-direction: row;
+    padding-left: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 } 
-
 
 .nav-link {
     padding-left: 10%;
@@ -16,7 +17,7 @@
 }
 
 .nav-link a {
-    color: black;
+    color: white;
     font-size: large;
     font-weight: 900;
     list-style-type: none;
@@ -24,7 +25,11 @@
 }
 
 .nav-link a:hover {
-    color: #df1380;
+    color: black;
     border-radius: 15px 50px;
 }
 
+.navbar-brand{
+    text-align: left;
+    padding-left: 5%;
+}

@@ -1,7 +1,11 @@
+.container-fluid{
+    margin-top: 7%;
+}
 .card{
  display: flex;
  flex-direction: row;
  width: 100%;
+ border: none;
 }
 
 .card-body{

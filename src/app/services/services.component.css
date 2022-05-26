@@ -1,0 +1,19 @@
+h1{
+    color: #df1380;
+    margin-top: 5%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.card{
+    margin: 5%;
+    border: none;
+}
+img{
+    box-shadow: 5px 5px 5px 5px rgb(155, 151, 151);
+}
+.card-title{
+    margin-top: 5%;
+    font-size: x-large;
+    font-weight: bold;
+}
