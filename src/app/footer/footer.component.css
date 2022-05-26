@@ -1,18 +1,23 @@
-/* .card{
-    background-image: url("https://cdn.pixabay.com/photo/2018/12/27/09/07/businessman-3897245__340.jpg");
+.card-fluid{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/16/10/32/businessman-2954004__340.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-} */
-
-.card-text{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    color: black;
+    
 }
-
+.two{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.7;
+}
+.card-text{
+    margin-top: 3%;
+}
 h3{
-    text-align: right;
+    color: white;
+    text-align: left;
     font-weight: 500;
     font-size: x-large;
+    background-color: inherit;
+    padding-right: 5%;
 }
