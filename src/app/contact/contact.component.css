@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #858e94 0%, #2f3031 30%, #f04be2 30%, #ec41fc 10%, #f074f0 100%);
+    height: 100vh;
+}
+
+.contactUs {
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactUs .title {
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.contactUs .title h2 {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+.form {
+    grid-area: form;
+}
+
+.info {
+    grid-area: info;
+}
+
+.map {
+    grid-area: map;
+}
+
+.contact {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 35px, rgba(0, 0, 0, 0.15);
+}
+
+.box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: "form info" "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h3 {
+    color: #2f3031;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+/* form */
+
+.formBox {
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50 {
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox {
+    width: 90%;
+}
+
+.inputBox span {
+    color: #f04be2;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputBox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
