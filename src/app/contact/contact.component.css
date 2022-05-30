@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(90deg, #858e94 0%, #2f3031 30%, #f04be2 30%, #ec41fc 10%, #f074f0 100%);
-    height: 100vh;
+    height: auto;
 }
 
 .contactUs {
@@ -76,6 +76,8 @@ body {
 .formBox {
     position: relative;
     width: 100%;
+    margin-top: 5%;
+    height: max-content;
 }
 
 .formBox .row50 {
@@ -91,7 +93,7 @@ body {
 }
 
 .formBox .row100 .inputBox {
-    width: 90%;
+    width: 100%;
 }
 
 .inputBox span {
@@ -99,6 +101,7 @@ body {
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
+    font-size: 100%;
 }
 
 .inputBox input {
@@ -110,7 +113,94 @@ body {
 
 .inputBox textarea {
     padding: 10px;
-    font-size: 1.1em;
     outline: none;
     border: 1px solid #333;
+    resize: none;
+    min-height: 170px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"] {
+    background: rgb(243, 17, 149);
+    color: #fff;
+    border: none;
+    font-size: 100%;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputBox ::placeholder {
+    color: rgb(111, 111, 197);
+}
+
+
+/*------info----*/
+
+.info {
+    background: #3e3f41;
+}
+
+.info h3 {
+    color: #fff;
+}
+
+.info .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .infoBox div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #6f9cf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .infoBox div p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.info .infoBox div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sci {
+    margin-top: 40px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.sci li a {
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.sci li a:hover {
+    color: #fff;
+}
+
+.map {
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
 }
