@@ -204,3 +204,31 @@ body {
     width: 100%;
     height: 100%;
 }
+
+@media(max-width: 991px) {
+    body {
+        background: #f04be2;
+    }
+    .contactUs {
+        padding: 20px;
+    }
+    .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "form" "info" "map";
+    }
+    .map {
+        min-height: 300px;
+    }
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
