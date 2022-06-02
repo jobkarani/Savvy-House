@@ -26,7 +26,9 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
     MatIconModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
