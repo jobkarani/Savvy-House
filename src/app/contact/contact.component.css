@@ -8,6 +8,7 @@
 .container {
     background: linear-gradient(90deg, #858e94 0%, #2f3031 30%, #f04be2 30%, #ec41fc 10%, #f074f0 100%);
     height: auto;
+    width: 100%;
 }
 
 .contactUs {
@@ -101,7 +102,7 @@
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
-    font-size: 100%;
+    font-size: 110%;
 }
 
 .inputBox input {
