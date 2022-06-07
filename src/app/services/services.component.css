@@ -6,14 +6,22 @@ h1{
     font-size: xx-large;
 }
 .card{
-    margin: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border: none;
+    box-shadow: 5px 5px 5px 5px #e2dede;
 }
-img{
-    box-shadow: 5px 5px 5px 5px rgb(155, 151, 151);
-}
+
 .card-title{
     margin-top: 5%;
     font-size: x-large;
     font-weight: bold;
+}
+.card-image img{
+    width: 100%;
+}
+.card-body{
+    padding: 5%;
+    font-size: larger;
 }
