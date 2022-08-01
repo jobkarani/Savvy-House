@@ -181,3 +181,29 @@
                 width: 100%;
             }
         }
+        /*-----------End of Core--------*/
+        /*-----------Clients-con--------*/
+        
+        .clients-con {
+            background-color: #323232;
+        }
+        
+        .clients-con h1 {
+            color: #FA4EAB;
+            margin-left: 40%;
+            font-size: xx-large;
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .clients-img ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+        
+        .clients-img img {
+            width: 100%;
+            height: 80%;
+        }

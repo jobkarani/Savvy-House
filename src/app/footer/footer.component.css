@@ -1,24 +1,27 @@
-.card-fluid{
+.card-fluid {
     background-image: url("https://cdn.pixabay.com/photo/2022/05/21/10/17/beach-7211174__340.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-.two{
+
+.two {
     background-color: #df1380;
     padding-top: 5%;
     padding-bottom: 5%;
     opacity: 0.4;
 }
-.card-image{
+
+.card-image {
     margin-top: 12%;
     margin-left: 50%;
 }
-.card-text{
+
+.card-text {
     margin-left: 5%;
     margin-top: 3%;
 }
-h3{
+
+h3 {
     color: white;
     text-align: left;
     font-weight: 500;
