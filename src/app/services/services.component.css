@@ -1,22 +1,35 @@
 h1{
-    color: #df1380;
+    color: #777777;
     margin-top: 5%;
     padding-top: 5%;
     font-weight: bold;
     font-size: xx-large;
 }
+
+.xxx{
+    margin-right: 12%;
+    display: flex;
+}
+
 .card{
+    /* width: 20% !important; */
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: #292c2f;
     border: none;
-    box-shadow: 5px 5px 5px 5px #e2dede;
+    box-shadow: 5px 5px 5px 5px #55585c;
+}
+
+.card:hover{
+    box-shadow: 15px 15px #55585c;
 }
 
 .card-title{
     margin-top: 5%;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: 900;
+    text-align: center;
 }
 .card-image img{
     width: 100%;
@@ -24,4 +37,60 @@ h1{
 .card-body{
     padding: 5%;
     font-size: larger;
+}
+.container-fluid{
+    background-color: #191e23;
+    overflow-x: hidden;
+}
+.card-text, p{
+    color: #777777;
+}
+
+ol{
+    margin-left: 10%;
+}
+
+.li{
+    color: #777777;
+    text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .container-fluid{
+        padding-top: 5% !important;
+        overflow-x: hidden;
+        padding-right: 12%;
+    }
+
+    h1{
+        font-size: x-large;
+    }
+
+    .xxx{
+        display: block;
+        width: 100%;
+    }
+
+    .card, .card:hover{
+        box-shadow: none;
+    }
+
+    .col-6{
+        max-width: 100%;
+    }
+
+    .card-title{
+        font-size: larger;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card-text{
+        font-size: small;
+    }
+
+    .li{
+        font-size: small;
+        font-weight: 600;
+    }
 }
