@@ -38,7 +38,7 @@ h1{
     padding: 5%;
     font-size: larger;
 }
-.container-fluid{
+.container-full{
     background-color: #191e23;
     overflow-x: hidden;
 }
@@ -56,10 +56,11 @@ ol{
 }
 
 @media only screen and (max-width: 500px) {
-    .container-fluid{
+    .container-full{
         padding-top: 5% !important;
         overflow-x: hidden;
         padding-right: 12%;
+        width: 100%;
     }
 
     h1{

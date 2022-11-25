@@ -1,41 +1,203 @@
-.fixed-top{
-    box-shadow: 5px 5px 5px 5px #d8b5c8;
-    background-color: #df1380;
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    padding-left: 50%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-} 
+/* start of navbar  */
 
-.nav-link {
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 100%;
-}
-
-.nav-link a {
-    color: white;
-    font-size: large;
-    font-weight: 900;
+.navbars ul{
     list-style-type: none;
-    text-decoration: none;
-}
-
-.nav-link a:hover {
-    color: black;
-    border-radius: 15px 50px;
-}
-
-.navbar-brand{
-    text-align: left;
-    padding-left: 5%;
-}
-
-@media only screen and (max-width: 500px) {
-    .fixed-top{
-        box-shadow: none;
+  }
+ 
+  
+  .header {
+    background-color: #000000;
+  }
+  .navbars {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: auto; */
+    /* align-items: center; */
+    padding: 1rem 1.5rem;
+    /* z-index:999; */
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffff;
+  }
+  .hamburger {
+    display: none;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffff;
+  }
+  .nav-menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #811750;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-}
+
+    .one:hover{
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+
+  .nav-link:hover {
+    color: #fff;
+  }
+ 
+  
+  .nav-logos img {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #811750;
+    height: auto;
+    width: 100%;
+  }
+  .menu-header{
+    background-color: #c4c2bc;
+  }
+  .nav-menu-logos{
+    color: #811750;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .nav-menu-logos:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  .bar{
+    background: #ffff;
+  }
+  .menu-header{
+    display: none;
+  }
+
+/* media screen  */
+
+/* @media only screen and (max-width: 1306px) {
+    .nav-item {
+      margin-left: 2rem;
+    }
+  } */
+  
+  @media only screen and (max-width: 500px) {
+    .phoneHeader{
+      margin-left: 2rem;
+    }
+    .contact{
+      margin-top: 4rem;
+    }
+    .serv{
+        margin-top: 4rem;  
+    }
+    .about{
+        margin-top: 4rem;  
+    }
+    .container-full{
+      width: 100%;
+    }
+
+    .menu-header{
+      display: block;
+      position: fixed;
+      z-index: 988;
+    }
+
+    .nav-menus {
+      position: fixed;
+      top: 5%;
+      width: 50%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      flex-direction: column;
+      background-color: rgba(132, 122, 122, 0.8);
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      z-index: 899;
+    }
+    .nav-menu{
+      display: none;
+    }
+    .nav-link {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #fff;
+    }
+    
+    .nav-link:hover {
+      color: #811750;
+    }
+    
+      .nav-menus.active {
+      left: 0;
+    }
+  
+    .nav-items {
+      margin: 1.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      -webkit-transform: translateY(8px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      -webkit-transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .hamburger{
+      /* position: relative;
+      right: 45px;
+      bottom: 25px; */
+    }
+    .menu-header {
+      background-color: #d51414;
+      width: 48%;
+    }
+    /* .container-full{
+      width: 100%;
+    }
+    header{
+      width: 100%;
+    } */
+  }
+/* end of navbar  */
