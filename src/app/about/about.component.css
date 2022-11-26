@@ -96,6 +96,10 @@ strong{
         line-height: 150%;
     }
 
+    .h1{
+        padding-top: 8%;
+    }
+
     .h1,.one,h1{
         font-size: 20px;
         font-weight: 600;

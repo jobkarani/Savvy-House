@@ -1,7 +1,6 @@
 h1{
     color: #999999;
-    margin-top: 5%;
-    padding-top: 5%;
+    padding-top: 3%;
     font-weight: bold;
     font-size: xx-large;
 }
@@ -74,6 +73,7 @@ ol{
 
     h1{
         font-size: x-large;
+        padding-top: 8%;
     }
 
     .xxx{

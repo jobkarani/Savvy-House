@@ -234,4 +234,8 @@ h4{
     .map {
         padding: 0;
     }
+
+    .title{
+        padding-top: 8%;
+    }
 }
