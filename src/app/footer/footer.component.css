@@ -1,36 +1,81 @@
 .container-fluid {
-    background-image: url("https://cdn.pixabay.com/photo/2022/05/21/10/17/beach-7211174__340.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000000;
 }
 
-.two {
-    background-color: #df1380;
+.car{
     padding-top: 5%;
-    padding-bottom: 5%;
-    opacity: 0.4;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    display: flex;
 }
 
-.card-image {
-    margin-top: 12%;
-    margin-left: 50%;
+li{
+    list-style-type: none;
+    margin-top: 5%;
 }
 
-.card-text {
-    margin-left: 5%;
-    margin-top: 3%;
+li a{
+    color: #777777;
+    font-size: larger;
+}
+li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.location{
+    color: #777777;
+    line-height: 200%;
+}
+
+.mail{
+    color: #999999;
+}
+
+.mail:hover{
+    text-decoration: none;
+    color: blue;
 }
 
 h3 {
-    color: white;
+    color: #999999;
     text-align: left;
     font-weight: 500;
     font-size: x-large;
     background-color: inherit;
 }
 
+
+.alchemist{
+    text-align: center;
+    color: #777777;
+    font-size: small;
+}
+
+.emist{
+    color: #fff;
+}
+
+ .card-textt, .card-imagee{
+    margin-left: 25%;
+}
+
 @media only screen and (max-width: 500px) {
     .container-fluid{
         width: 100%;
     }
+
+    .car{
+        display: block;
+        width: 100%;
+    }
+
+    .serv-links, h3, .card-textt, .card-imagee{
+        text-align: center;
+    }
+
+    .card-textt, .card-imagee{
+        margin-left: 0;
+    }
+
 }
