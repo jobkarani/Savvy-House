@@ -1,5 +1,5 @@
 h1{
-    color: #777777;
+    color: #999999;
     margin-top: 5%;
     padding-top: 5%;
     font-weight: bold;
@@ -12,7 +12,6 @@ h1{
 }
 
 .card{
-    /* width: 20% !important; */
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -25,25 +24,35 @@ h1{
     box-shadow: 15px 15px #55585c;
 }
 
-.card-title{
-    margin-top: 5%;
-    font-size: x-large;
-    font-weight: 900;
+.card-title p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
     text-align: center;
 }
+
 .card-image img{
     width: 100%;
 }
+
 .card-body{
     padding: 5%;
     font-size: larger;
 }
-.container-full{
+
+.container-fluid{
     background-color: #191e23;
     overflow-x: hidden;
 }
+
 .card-text, p{
     color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    line-height: 150%;
 }
 
 ol{
@@ -56,7 +65,7 @@ ol{
 }
 
 @media only screen and (max-width: 500px) {
-    .container-full{
+    .container-fluid{
         padding-top: 5% !important;
         overflow-x: hidden;
         padding-right: 12%;
