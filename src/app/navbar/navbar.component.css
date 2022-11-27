@@ -92,17 +92,12 @@ a:hover{
   height: 10vh;
 }
 
-/* span{
-  color: #999999;
-} */
-
-.hamburger .bar{
-  color: red;
+.bar{
+  background: #fff;
 }
 
-
-span:hover{
-  color: #fff;
+.bar:hover{
+  background: #999999;
 }
 
 .menu-header{
@@ -163,23 +158,10 @@ span:hover{
     color: #fff;
   }
   
-  .nav-link:hover {
-    color: #811750;
-  }
-  
   .nav-menus.active {
     left: 0;
   }
-
  
-  span:hover{
-    color: #fff;
-  }
-
-  .nav-items {
-    margin: 1.5rem 0;
-  }
-
   .hamburger {
     display: block;
     cursor: pointer;
@@ -199,4 +181,12 @@ span:hover{
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .one{
+    margin-left: -10%;
+  }
+}
+
+
 /* end of navbar  */
