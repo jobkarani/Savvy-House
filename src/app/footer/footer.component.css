@@ -83,4 +83,8 @@ h3 {
         display: none;
     }
 
+    .alchemist{
+        font-size: small;
+        text-align: center;
+    }
 }
