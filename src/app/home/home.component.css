@@ -151,6 +151,7 @@
 
         .clients-con{
             padding-bottom: 3%;
+            background-color: #191e23;
         }
 
         .clients{
@@ -158,7 +159,7 @@
             text-align: left;
             font-size: xx-large;
             font-weight: 900;
-            margin-top: 3%;
+            padding-top: 3%;
             margin-left: 5%;
         }
 
@@ -170,15 +171,24 @@
             list-style: none;
         }
 
+        .container-fluid{
+            position: relative;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+            overflow-x: hidden;
+        }
+
         @media only screen and (max-width: 500px) {
-            /* .container-fluid{
+            .container-fluid{
                 position: relative;
                 padding-right: 0;
                 padding-left: 0;
                 margin-right: 0;
                 margin-left: 0;
                 overflow-x: hidden;
-            } */
+            }
 
             .patnerr{
                 font-size: 15px;
