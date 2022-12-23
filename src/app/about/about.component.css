@@ -28,7 +28,7 @@ h3 {
 h1 {
     font-size: xx-large;
     font-weight: 900;
-    color: #999999;
+    color: #F56EB3;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -77,6 +77,10 @@ strong {
     background-color: #292c2f;
 }
 
+strong {
+    color: #F56EB3;
+}
+
 .vision:hover {
     box-shadow: 0 8px 16px 0 rgb(248, 2, 187);
 }
@@ -119,7 +123,7 @@ li {
         font-size: 15px;
         font-weight: 400;
         padding-left: 3%;
-        padding-right: 3%;
+        padding-right: 10%;
         text-align: center;
         line-height: 150%;
     }
@@ -141,8 +145,7 @@ li {
     .vision {
         font-size: 15px;
         font-weight: 400;
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-right: 7%;
         text-align: center;
         line-height: 150%;
         margin-top: 10%;

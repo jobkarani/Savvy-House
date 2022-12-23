@@ -10,6 +10,10 @@ h1 {
     display: flex;
 }
 
+.text-center {
+    color: #F56EB3;
+}
+
 .card {
     margin-left: 5%;
     margin-top: 5%;
@@ -24,7 +28,7 @@ h1 {
 }
 
 .card-title p {
-    color: #999999;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -47,7 +51,7 @@ h1 {
 .card-text,
 p {
     color: #777777;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     padding-left: 3%;
     padding-right: 3%;
