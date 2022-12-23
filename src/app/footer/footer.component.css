@@ -1,39 +1,53 @@
 .container-fluid {
-    background-color: #000000;
+    /* background-image: url("https://img.freepik.com/premium-photo/email-marketing-newsletter-conceptcontact-us-by-newsletter-email-protect-your-personal-information-from-spam-mail-conceptscheme-direct-sales-business-list-clients-mailing_150455-20911.jpg?w=996"); */
+    background: rgba(17, 3, 13, 0.418);
     padding-bottom: 1%;
+    border: 2px solid black;
+    opacity: 0.8;
 }
 
-.car{
+.car {
     padding-top: 5%;
     padding-bottom: 3%;
     margin-left: 15%;
     display: flex;
 }
 
-li{
+.serv-links h3 {
+    color: #fff;
+    font-size: xx-large;
+}
+
+.card-textt h3 {
+    color: #fff;
+    font-size: xx-large;
+}
+
+li {
     list-style-type: none;
     margin-top: 5%;
 }
 
-li a{
-    color: #777777;
+li a {
+    color: #fff;
     font-size: larger;
 }
-li a:hover{
+
+li a:hover {
     color: blue;
     text-decoration: none;
 }
 
-.location{
-    color: #777777;
+.location {
+    color: #fff;
     line-height: 200%;
 }
 
-.mail{
-    color: #999999;
+.mail {
+    color: #fff;
 }
 
-.mail:hover{
+.mail:hover {
     text-decoration: none;
     color: blue;
 }
@@ -46,45 +60,44 @@ h3 {
     background-color: inherit;
 }
 
-
-.alchemist{
+.alchemist {
     text-align: right;
     color: #777777;
     font-size: small;
 }
 
-.emist{
+.emist {
     color: #fff;
 }
 
- .card-textt, .card-imagee{
+.card-textt,
+.card-imagee {
     margin-left: 15%;
 }
 
 @media only screen and (max-width: 500px) {
-    .container-fluid{
+    .container-fluid {
         width: 100%;
     }
-
-    .car{
+    .car {
         display: block;
         width: 100%;
         margin-left: 0;
     }
-
-    .serv-links, h3, .card-textt, .card-imagee{
+    .serv-links,
+    h3,
+    .card-textt,
+    .card-imagee {
         text-align: center;
     }
-
-    .card-textt, .card-imagee{
+    .card-textt,
+    .card-imagee {
         margin-left: 0;
     }
-
-    .card-imagee{
+    .card-imagee {
         display: none;
     }
-
-    .alchemist{
+    .alchemist {
         font-size: small;
         text-align: center;
     }
