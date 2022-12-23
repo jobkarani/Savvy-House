@@ -1,8 +1,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Cabin+Sketch&family=Carter+One&family=Fredericka+the+Great&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,200;1,500;1,700&display=swap');
-        .uno{
+        .uno {
             background-color: #323232;
         }
-
+        
         .papa {
             background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174");
             width: 100%;
@@ -12,28 +12,29 @@
             padding-left: 10%;
         }
         
-        .img{
+        .img {
             margin-bottom: 5%;
         }
-        .welcome{
+        
+        .welcome {
             font-size: xx-large;
             font-weight: 900;
             color: #999999;
         }
-
-        .partner{
+        
+        .partner {
             font-size: x-large;
             font-weight: 700;
             color: #999999;
             margin-bottom: 2%;
         }
-
+        
         .row {
             display: flex;
             flex-direction: row;
         }
-
-        .patnerr{
+        
+        .patnerr {
             color: #777777;
             line-height: 200%;
             font-size: larger;
@@ -41,41 +42,46 @@
             width: 40%;
         }
         
+        .course-header1 {
+            background-color: #F56EB3;
+            height: 8vh;
+        }
+        
         .course-header {
-            color: #999999;
-            text-align: left;
+            color: #fff;
+            text-align: center;
             font-size: xx-large;
             font-weight: 900;
-            margin-top: 3%;
+            margin-top: 0%;
             margin-bottom: 5%;
             margin-left: 5%;
         }
-
-        .second{
+        
+        .second {
             margin-left: 5%;
             margin-right: 5%;
             padding-bottom: 3%;
         }
-
-        .goals{
+        
+        .goals {
             color: #999999;
             font-size: x-large;
             font-weight: 700;
         }
-
-        .goal{
+        
+        .goal {
             color: #777777;
             font-size: larger;
             font-weight: 500;
             line-height: 200%;
         }
         
-        .card-imgg{
+        .card-imgg {
             width: 100%;
             height: 70vh;
         }
-
-        .img-text{
+        
+        .img-text {
             color: #999999;
             font-size: larger;
             font-weight: 600;
@@ -86,75 +92,98 @@
             margin-left: 5%;
             padding-top: 2%;
         }
-
-        .dos{
+        
+        .course-row h2 {
+            color: #F56EB3;
+        }
+        
+        .dos {
             background-color: #212326;
             margin: 0;
-            padding-top: 5%;
+            padding-top: 0%;
             padding-bottom: 5%;
         }
         
-        .serv{
+        .dos h1 {
+            color: #fff;
+        }
+        
+        .dos a {
+            color: aqua;
+        }
+        
+        .a {
+            background-color: #460C68;
+            border-radius: 12px;
+        }
+        
+        .serv.row {
             margin-bottom: 5%;
-            margin-left: 5%;
+            background-color: #F56EB3;
+            font-weight: 300;
         }
         
         .service-header {
             font-weight: 900;
             font-size: xx-large;
             color: #999999;
-            text-align: left;
+            text-align: right;
         }
-
-        .all{
+        
+        .all {
             color: #999999;
             font-size: x-large;
             font-weight: 500;
         }
-
-        .fa-solid{
+        
+        .fa-solid {
             color: #777777;
         }
-
-        .cards{
+        
+        .cards {
             margin-right: 5%;
         }
-
-        .carr{
+        
+        .carr {
             width: 28%;
             margin-left: 5%;
             background-color: #282a2d;
+            padding: 2px 16px;
         }
-
-        .tit{
+        
+        .carr:hover {
+            box-shadow: 0 8px 16px 0 rgb(248, 2, 187);
+        }
+        
+        .tit {
             color: #999999;
             font-size: x-large;
             font-weight: 700;
             text-align: center;
             margin-top: 3%;
         }
-
-        .tet{
+        
+        .tet {
             color: #777777;
             font-size: larger;
             font-weight: 500;
             text-align: center;
             line-height: 200%;
         }
-
-        .learn{
+        
+        .learn {
             margin-left: 20%;
             text-align: center;
             color: #999999;
             font-weight: 900;
         }
-
-        .clients-con{
+        
+        .clients-con {
             padding-bottom: 3%;
             background-color: #191e23;
         }
-
-        .clients{
+        
+        .clients {
             color: #999999;
             text-align: left;
             font-size: xx-large;
@@ -162,21 +191,21 @@
             padding-top: 3%;
             margin-left: 5%;
         }
-
-        .clients-img{
+        
+        .clients-img {
             margin-left: 5%;
             margin-right: 5%;
         }
-
-        .imgg{
+        
+        .imgg {
             margin-left: 2%;
         }
-
-        li{
+        
+        li {
             list-style: none;
         }
-
-        .container-fluid{
+        
+        .container-fluid {
             position: relative;
             padding-right: 0;
             padding-left: 0;
@@ -184,9 +213,9 @@
             margin-left: 0;
             overflow-x: hidden;
         }
-
+        
         @media only screen and (max-width: 500px) {
-            .container-fluid{
+            .container-fluid {
                 position: relative;
                 padding-right: 0;
                 padding-left: 0;
@@ -194,55 +223,50 @@
                 margin-left: 0;
                 overflow-x: hidden;
             }
-
-            .patnerr{
+            .patnerr {
                 font-size: 15px;
                 font-weight: 400;
                 text-align: center;
                 line-height: 180%;
                 width: 100%;
             }
-
-            .course-header{
+            .course-header {
                 font-size: 20px;
                 font-weight: 600;
                 text-align: center;
                 padding-top: 5%;
             }
-
-            .none{
+            .none {
                 display: none;
             }
-
-            .service-header, .welcome{
+            .service-header,
+            .welcome {
                 font-size: 20px;
                 font-weight: 600;
                 text-align: center;
             }
-
-            .all{
+            .all {
                 font-size: 14px;
                 font-weight: 500;
             }
-
-            .cards{
+            .cards {
                 display: block;
                 margin-left: 5%;
                 margin-right: 5%;
             }
-
-            .carr{
+            .carr {
                 width: 90%;
                 margin-top: 5%;
             }
-
-            .tit,.goals, .partner{
+            .tit,
+            .goals,
+            .partner {
                 font-size: 18px;
                 font-weight: 600;
                 text-align: center;
             }
-
-            .tet, .goal{
+            .tet,
+            .goal {
                 font-size: 15px;
                 font-weight: 400;
                 padding-left: 3%;
@@ -250,30 +274,24 @@
                 text-align: center;
                 line-height: 150%;
             }
-
-            .learn{
+            .learn {
                 font-size: 14px;
                 font-weight: 500;
                 margin-left: 30%;
             }
-
-            .clients{
+            .clients {
                 font-size: 20px;
                 font-weight: 600;
                 text-align: center;
                 padding-top: 5%;
             }
-
-
-            .iyo{
+            .iyo {
                 margin-left: 2%;
             }
-
-            .iyoo{
+            .iyoo {
                 margin-left: 10%;
             }
-
-            .iyooo{
+            .iyooo {
                 margin-left: 8%;
             }
         }

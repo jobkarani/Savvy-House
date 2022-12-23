@@ -1,31 +1,31 @@
-.container-fluid{
+.container-fluid {
     background-color: #191e23;
     padding-top: 3%;
 }
 
-.card-body{
+.card-body {
     padding-right: 10%;
     padding-left: 10%;
 }
 
-.card-body1{
+.card-body1 {
     margin-top: 2%;
 }
 
-.text-muted{
+.text-muted {
     color: #777777 !important;
     font-weight: 900;
     font-size: xx-large;
 }
 
-h3{
+h3 {
     margin-top: 5%;
     border-bottom: 5px solid #777777;
     width: 30%;
     padding-bottom: 2%;
 }
 
-h1{
+h1 {
     font-size: xx-large;
     font-weight: 900;
     color: #999999;
@@ -33,17 +33,19 @@ h1{
     margin-bottom: 2%;
 }
 
-.one{
+.one {
     color: #999999;
     text-align: center;
     font-size: x-large;
     font-weight: 900;
 }
-.card-text{
+
+.card-text {
     color: #777777;
     font-size: large;
 }
-.card2{
+
+.card2 {
     background-image: url('https://cdn.pixabay.com/photo/2017/04/12/08/55/mobile-phone-2224001__340.jpg');
     background-repeat: no-repeat;
     padding-left: 40%;
@@ -51,19 +53,20 @@ h1{
     padding-bottom: 5%;
     padding-top: 2%;
 }
-strong{
+
+strong {
     color: #999999;
     font-size: x-large;
 }
 
-.card2 p{
-    box-shadow: 5px 5px 5px 5px #55585c;
+.card2 p {
+    box-shadow: 5px 5px 5px 5px #6aa3ec;
     padding: 5%;
     text-align: right;
 }
 
-.vision{
-    box-shadow: 5px 5px 5px 5px #55585c; 
+.vision {
+    box-shadow: 5px 5px 5px 5px #6aa3ec;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 2%;
@@ -74,41 +77,45 @@ strong{
     background-color: #292c2f;
 }
 
-.pol{
+.vision:hover {
+    box-shadow: 0 8px 16px 0 rgb(248, 2, 187);
+}
+
+.pol {
     margin-left: 8%;
 }
 
-.who{
+.who {
     line-height: 200%;
 }
 
-.block{
+.block {
     display: flex;
 }
 
-.card3{
+.card3 {
     padding-bottom: 3%;
 }
 
-.clients-con{
+.clients-con {
     padding-bottom: 3%;
 }
 
-.clients-img{
+.clients-img {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.imgg{
+.imgg {
     margin-left: 2%;
 }
 
-li{
+li {
     list-style: none;
 }
 
 @media only screen and (max-width: 500px) {
-    .who{
+    .who {
         font-size: 15px;
         font-weight: 400;
         padding-left: 3%;
@@ -116,24 +123,22 @@ li{
         text-align: center;
         line-height: 150%;
     }
-
-    .h1{
+    .h1 {
         padding-top: 8%;
     }
-
-    .h1,.one,h1{
+    .h1,
+    .one,
+    h1 {
         font-size: 20px;
         font-weight: 600;
         text-align: center;
     }
-
-    strong{
+    strong {
         font-size: 18px;
         font-weight: 600;
         text-align: center;
     }
-
-    .vision{
+    .vision {
         font-size: 15px;
         font-weight: 400;
         padding-left: 3%;
@@ -141,35 +146,33 @@ li{
         text-align: center;
         line-height: 150%;
         margin-top: 10%;
+        margin-right: 10%;
+        box-shadow: 5px 5px 5px 5px #6aa3ec;
     }
-
-    .block{
+    .vision:hover {
+        box-shadow: 0 8px 16px 0 rgb(248, 2, 187);
+    }
+    .block {
         display: block;
         margin-bottom: 15%;
     }
-
-    .pol{
+    .pol {
         margin-left: 0;
     }
-
-    .cardd{
+    .cardd {
         margin-bottom: 15%;
     }
-
-    .clients-img{
+    .clients-img {
         margin-left: 5%;
         margin-right: 5%;
     }
-
-    .iyo{
+    .iyo {
         margin-left: 2%;
     }
-
-    .iyoo{
+    .iyoo {
         margin-left: 10%;
     }
-
-    .iyooo{
+    .iyooo {
         margin-left: 8%;
     }
 }
