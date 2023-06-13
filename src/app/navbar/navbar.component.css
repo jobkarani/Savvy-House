@@ -116,6 +116,11 @@ a:hover {
 /* media screen  */
 
 @media only screen and (max-width: 500px) {
+    .container-full {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     .nav-item {
         margin-left: 2rem;
     }
